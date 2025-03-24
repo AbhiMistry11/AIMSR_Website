@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AIMSRCollegeWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AIMSRCollegeWebsite.iyl7vqgz5m.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\40ullhfw.l1a.webp",
+      "PackagePath": "staticwebassets\\40ullhfw.l1a.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\5dc4f16d13a52_1.jpg",
+      "PackagePath": "staticwebassets\\5dc4f16d13a52_1.jpg"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\NB.webp",
+      "PackagePath": "staticwebassets\\NB.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\RP.webp",
+      "PackagePath": "staticwebassets\\RP.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\SN.webp",
+      "PackagePath": "staticwebassets\\SN.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\abhi.webp",
+      "PackagePath": "staticwebassets\\abhi.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aimsr-logo.png.bv_resized_desktop.png.bv.webp",
+      "PackagePath": "staticwebassets\\aimsr-logo.png.bv_resized_desktop.png.bv.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\college-students-arriving-for-night-school.webp",
+      "PackagePath": "staticwebassets\\college-students-arriving-for-night-school.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\google.webp",
+      "PackagePath": "staticwebassets\\google.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\graduating-class.webp",
+      "PackagePath": "staticwebassets\\graduating-class.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\high-angle-adults-studying-together_23-2150331646.webp",
+      "PackagePath": "staticwebassets\\high-angle-adults-studying-together_23-2150331646.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\his.webp",
+      "PackagePath": "staticwebassets\\his.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\kaustubh.webp",
+      "PackagePath": "staticwebassets\\kaustubh.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\keval.webp",
+      "PackagePath": "staticwebassets\\keval.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lab.webp",
+      "PackagePath": "staticwebassets\\lab.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\libarary.webp",
+      "PackagePath": "staticwebassets\\libarary.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\micro.webp",
+      "PackagePath": "staticwebassets\\micro.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\pg.webp",
+      "PackagePath": "staticwebassets\\pg.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\rank1.webp",
+      "PackagePath": "staticwebassets\\rank1.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\rear-view-male-high-school-teacher-standing-front-class-teaching-lesson_1218270-6428.webp",
+      "PackagePath": "staticwebassets\\rear-view-male-high-school-teacher-standing-front-class-teaching-lesson_1218270-6428.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\ro.webp",
+      "PackagePath": "staticwebassets\\ro.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\sports.webp",
+      "PackagePath": "staticwebassets\\sports.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\tech.webp",
+      "PackagePath": "staticwebassets\\tech.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\train.webp",
+      "PackagePath": "staticwebassets\\train.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\ug.webp",
+      "PackagePath": "staticwebassets\\ug.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\university-students-walking-outside-on-campus.webp",
+      "PackagePath": "staticwebassets\\university-students-walking-outside-on-campus.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AIMSRCollegeWebsite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AIMSRCollegeWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AIMSRCollegeWebsite.props",
+      "PackagePath": "build\\AIMSRCollegeWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AIMSRCollegeWebsite.props",
+      "PackagePath": "buildMultiTargeting\\AIMSRCollegeWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AIMSRCollegeWebsite.props",
+      "PackagePath": "buildTransitive\\AIMSRCollegeWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

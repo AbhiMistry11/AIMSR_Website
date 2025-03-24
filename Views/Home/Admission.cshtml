@@ -1,0 +1,257 @@
+﻿@{
+    ViewData["Title"] = "Admissions - AIMSR College";
+}
+<div class="container mt-5 mb-5">
+    <!-- Banner/Header -->
+    <div class="admission-banner mb-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4">Admissions</h1>
+                <p class="lead">Join AIMSR College and build your future with excellence</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admission Process Section -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2>Admission Process</h2>
+            <hr>
+            <div class="card-deck">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 1: Application</h5>
+                        <p class="card-text">Complete and submit the online application form with required documents.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 2: Entrance Test</h5>
+                        <p class="card-text">Qualify the entrance examination conducted by the college.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 3: Interview</h5>
+                        <p class="card-text">Shortlisted candidates will be called for personal interview.</p>
+                    </div>
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Step 4: Admission</h5>
+                        <p class="card-text">Selected candidates will receive admission letter with fee details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Programs/Courses Section -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2>Programs Offered</h2>
+            <hr>
+            <div class="accordion" id="programsAccordion">
+                <div class="card">
+                    <div class="card-header" id="undergraduateHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#undergraduateCollapse" aria-expanded="true" aria-controls="undergraduateCollapse">
+                                Undergraduate Programs
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="undergraduateCollapse" class="collapse show" aria-labelledby="undergraduateHeading" data-parent="#programsAccordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Bachelor of Business Administration (BBA)</li>
+                                <li class="list-group-item">Bachelor of Computer Applications (BCA)</li>
+                                <li class="list-group-item">Bachelor of Science in Information Technology (B.Sc IT)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="postgraduateHeading">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#postgraduateCollapse" aria-expanded="false" aria-controls="postgraduateCollapse">
+                                Postgraduate Programs
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="postgraduateCollapse" class="collapse" aria-labelledby="postgraduateHeading" data-parent="#programsAccordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">Master of Business Administration (MBA)</li>
+                                <li class="list-group-item">Master of Computer Applications (MCA)</li>
+                                <li class="list-group-item">Master of Science in Data Science (M.Sc Data Science)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fee Structure -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2>Fee Structure</h2>
+            <hr>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Program</th>
+                            <th>Duration</th>
+                            <th>Tuition Fee (per year)</th>
+                            <th>Development Fee</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>BBA</td>
+                            <td>3 years</td>
+                            <td>₹75,000</td>
+                            <td>₹15,000</td>
+                            <td>₹90,000</td>
+                        </tr>
+                        <tr>
+                            <td>BCA</td>
+                            <td>3 years</td>
+                            <td>₹80,000</td>
+                            <td>₹15,000</td>
+                            <td>₹95,000</td>
+                        </tr>
+                        <tr>
+                            <td>B.Sc IT</td>
+                            <td>3 years</td>
+                            <td>₹70,000</td>
+                            <td>₹15,000</td>
+                            <td>₹85,000</td>
+                        </tr>
+                        <tr>
+                            <td>MBA</td>
+                            <td>2 years</td>
+                            <td>₹1,25,000</td>
+                            <td>₹25,000</td>
+                            <td>₹1,50,000</td>
+                        </tr>
+                        <tr>
+                            <td>MCA</td>
+                            <td>2 years</td>
+                            <td>₹1,20,000</td>
+                            <td>₹25,000</td>
+                            <td>₹1,45,000</td>
+                        </tr>
+                        <tr>
+                            <td>M.Sc Data Science</td>
+                            <td>2 years</td>
+                            <td>₹1,30,000</td>
+                            <td>₹25,000</td>
+                            <td>₹1,55,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="alert alert-info mt-3">
+                <strong>Note:</strong> Scholarships available for meritorious students. Contact the admission office for more details.
+            </div>
+        </div>
+    </div>
+
+    <!-- Documents Required -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2>Required Documents</h2>
+            <hr>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <ul>
+                        <li>Completed application form</li>
+                        <li>High school mark sheet and certificate</li>
+                        <li>Higher secondary mark sheet and certificate</li>
+                        <li>Graduation mark sheets and degree (for postgraduate programs)</li>
+                        <li>Character certificate from previous institution</li>
+                        <li>Transfer certificate</li>
+                        <li>Four passport-sized photographs</li>
+                        <li>ID proof (Aadhaar Card/PAN Card/Passport)</li>
+                        <li>Caste certificate (if applicable)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="row mb-5">
+        <div class="col-md-12">
+            <h2>Frequently Asked Questions</h2>
+            <hr>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="faq1">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                                    data-target="#faqAnswer1" aria-expanded="true" aria-controls="faqAnswer1">
+                                What is the last date to apply for admission?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="faqAnswer1" class="collapse show" aria-labelledby="faq1" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            The last date to apply for the upcoming academic year is June 30th. However, it is advisable to apply as early as possible as admissions are granted on a rolling basis.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faq2">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#faqAnswer2" aria-expanded="false" aria-controls="faqAnswer2">
+                                Is there a hostel facility available?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="faqAnswer2" class="collapse" aria-labelledby="faq2" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Yes, we have separate hostel facilities for boys and girls with all modern amenities. The hostel fee is separate from the tuition fee and varies based on the type of accommodation.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faq3">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#faqAnswer3" aria-expanded="false" aria-controls="faqAnswer3">
+                                Are there any scholarship opportunities?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="faqAnswer3" class="collapse" aria-labelledby="faq3" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            AIMSR College offers merit-based scholarships to students who have excelled academically. Additionally, there are sports scholarships and financial aid options for economically disadvantaged students.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Admission Office -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h4>Need Help? Contact Our Admission Office</h4>
+                    <p><i class="fas fa-phone"></i> Phone: +91-1234567890</p>
+                    <p><i class="fas fa-envelope"></i> Email: admissions@aimsrcollege.edu.in</p>
+                    <p><i class="fas fa-clock"></i> Working Hours: Monday to Friday (9:00 AM to 5:00 PM)</p>
+                    <a href="#" class="btn btn-primary">Schedule a Campus Visit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

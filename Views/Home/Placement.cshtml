@@ -1,0 +1,385 @@
+﻿@{
+    ViewData["Title"] = "Placements - AIMSR College";
+}
+
+<!-- Enhanced CSS for better responsiveness -->
+   
+<!-- Placement Overview Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h2 class="text-center mb-4 position-relative">
+                    Placement Overview
+                    <span class="position-absolute start-50 translate-middle-x" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px;"></span>
+                </h2>
+                <p class="text-center mb-5">
+                    AIMSR College is committed to ensuring that our students are well-prepared for the professional world.
+                    Our dedicated Placement Cell works tirelessly to connect students with leading companies across various industries.
+                </p>
+
+                <div class="row text-center mb-5">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm stats-card">
+                            <div class="card-body">
+                                <i class="bi bi-briefcase text-primary" style="font-size: 2.5rem;"></i>
+                                <h3 class="h4 mt-3 fw-bold">95%</h3>
+                                <p>Placement Rate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm stats-card">
+                            <div class="card-body">
+                                <i class="bi bi-currency-rupee text-primary" style="font-size: 2.5rem;"></i>
+                                <h3 class="h4 mt-3 fw-bold">8.5 LPA</h3>
+                                <p>Average Package</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm stats-card">
+                            <div class="card-body">
+                                <i class="bi bi-trophy text-primary" style="font-size: 2.5rem;"></i>
+                                <h3 class="h4 mt-3 fw-bold">18 LPA</h3>
+                                <p>Highest Package</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Top Recruiters Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4 position-relative">
+            Our Top Recruiters
+            <span class="position-absolute start-50 translate-middle-x" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px;"></span>
+        </h2>
+        <p class="text-center mb-5">Leading companies that regularly recruit from AIMSR</p>
+        <div class="row">
+            <div class="col-12">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4 justify-content-center">
+                    @for (int i = 1; i <= 12; i++)
+                    {
+                        <div class="col text-center">
+                            <div class="card border-0 shadow-sm h-100">
+                                <div class="company-logo-container">
+                                    <img src="~/google.webp" class="card-img-top mx-auto" alt="Company Logo"
+                                         style="max-width: 60px; max-height: 60px; object-fit: contain;">
+                                </div>
+                                <div class="card-body p-2">
+                                    <p class="card-text m-0">Google @i</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Placement Process Section -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4 position-relative">
+            Placement Process
+            <span class="position-absolute start-50 translate-middle-x" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px;"></span>
+        </h2>
+        <p class="text-center mb-5">Our structured approach to connecting talents with opportunities</p>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="timeline">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-mic-fill"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Pre-Placement Talk</h4>
+                                    </div>
+                                    <p class="mb-0">Companies visit our campus to present their organization, job profiles, and expectations from candidates.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-pencil-fill"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Aptitude Test</h4>
+                                    </div>
+                                    <p class="mb-0">Students are evaluated through written tests to assess their analytical, technical, and problem-solving skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-people-fill"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Group Discussion</h4>
+                                    </div>
+                                    <p class="mb-0">Selected candidates participate in group discussions to showcase their communication and leadership abilities.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-code-slash"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Technical Interview</h4>
+                                    </div>
+                                    <p class="mb-0">In-depth evaluation of technical knowledge and skills relevant to the job profile.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-chat-dots-fill"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">HR Interview</h4>
+                                    </div>
+                                    <p class="mb-0">Final round focusing on personality traits, cultural fit, and career aspirations.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <div class="row g-0">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <div class="timeline-item">
+                                <div class="timeline-content shadow-sm p-4 rounded bg-white">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center me-3" style="width: 40px; height: 40px;">
+                                            <i class="bi bi-file-earmark-check-fill"></i>
+                                        </div>
+                                        <h4 class="h5 mb-0">Job Offer</h4>
+                                    </div>
+                                    <p class="mb-0">Successful candidates receive job offers with details about compensation and joining date.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4 position-relative">
+            Success Stories
+            <span class="position-absolute start-50 translate-middle-x" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px;"></span>
+        </h2>
+        <p class="text-center mb-5">Hear from our alumni about their placement experiences</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <img src="~/abhi.webp" class="rounded-circle" alt="Student" width="80" height="80">
+                            <div class="mt-3">
+                                <h5 class="card-title mb-1">Abhi Mistry</h5>
+                                <p class="text-muted mb-0">Software Engineer at Tech Solutions</p>
+                                <div class="text-warning mt-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text text-center fst-italic">"The placement cell at AIMSR provided exceptional guidance throughout my job search process. Their mock interviews and resume workshops were instrumental in helping me secure a position at my dream company."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <img src="~/kaustubh.webp" class="rounded-circle" alt="Student" width="80" height="80">
+                            <div class="mt-3">
+                                <h5 class="card-title mb-1">Kaustubh Parab</h5>
+                                <p class="text-muted mb-0">Data Analyst at Google</p>
+                                <div class="text-warning mt-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text text-center fst-italic">"I'm grateful for the industry exposure and networking opportunities provided by AIMSR. The placement training sessions enhanced my technical and soft skills, making me job-ready."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm testimonial-card">
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <img src="~/keval.webp" class="rounded-circle" alt="Student" width="80" height="80">
+                            <div class="mt-3">
+                                <h5 class="card-title mb-1">Keval Oza</h5>
+                                <p class="text-muted mb-0">Software Manager at Innovate Inc.</p>
+                                <div class="text-warning mt-2">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="card-text text-center fst-italic">"The placement team at AIMSR works tirelessly to bring top companies to campus. Their personalized approach to career counseling helped me find a role that perfectly matches my skills and interests."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Training & Preparation Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="~/train.webp" class="img-fluid rounded shadow" alt="Training Session" style="object-fit: cover; height: 400px; width: 100%;">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4 position-relative">
+                    Training & Preparation
+                    <span class="position-absolute" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px; left: 0;"></span>
+                </h2>
+                <p class="mt-4">At AIMSR, we prepare our students for successful careers through comprehensive placement training programs:</p>
+                <ul class="list-unstyled">
+                    <li class="training-item py-3">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                    <i class="bi bi-calculator"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Aptitude Training</h5>
+                                <p class="mb-0">Regular sessions to enhance numerical, logical, and verbal reasoning skills.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="training-item py-3">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                    <i class="bi bi-laptop"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Technical Workshops</h5>
+                                <p class="mb-0">Domain-specific training to strengthen core competencies.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="training-item py-3">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                    <i class="bi bi-chat-dots"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Soft Skills Development</h5>
+                                <p class="mb-0">Communication, presentation, and interpersonal skill enhancement.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="training-item py-3">
+                        <div class="d-flex">
+                            <div class="flex-shrink-0">
+                                <div class="rounded-circle bg-primary text-white d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                    <i class="bi bi-person-video2"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h5 class="mb-1">Mock Interviews</h5>
+                                <p class="mb-0">Simulated interview experiences with industry professionals.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-primary mt-4 px-4 py-2 rounded-pill">Register for Placement Training</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Placement Cell Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="mb-4 position-relative">
+                    Contact Placement Cell
+                    <span class="position-absolute start-50 translate-middle-x" style="height: 3px; width: 80px; background-color: #0d6efd; bottom: -10px;"></span>
+                </h2>
+                <p class="mb-5">Have questions about placements or want to schedule a campus recruitment drive? Get in touch with our placement team.</p>
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="contact-icon-container">
+                            <i class="bi bi-envelope-fill text-primary" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <h5 class="mb-2">Email</h5>
+                        <p class="mb-0">placements@aimsr.edu</p>
+                    </div>
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="contact-icon-container">
+                            <i class="bi bi-telephone-fill text-primary" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <h5 class="mb-2">Phone</h5>
+                        <p class="mb-0">+91 98765 43210</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="contact-icon-container">
+                            <i class="bi bi-geo-alt-fill text-primary" style="font-size: 1.5rem;"></i>
+                        </div>
+                        <h5 class="mb-2">Location</h5>
+                        <p class="mb-0">Placement Office, 2nd Floor, Main Building</p>
+                    </div>
+                </div>
+                <a href="/Contact" class="btn btn-primary mt-5 px-4 py-2 rounded-pill">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "News Details";
+}
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="card shadow">
+                <div class="card-body">
+                    @if (ViewBag.NewsId == 1)
+                    {
+                        <h2>Annual Technology Symposium 2025</h2>
+                        <p class="text-muted">March 15, 2025</p>
+                        <img src="~/tech.webp" class="img-fluid rounded mb-4" alt="Symposium Image">
+                        <p>Join us for our annual technology symposium featuring keynote speakers from leading tech companies, workshops, and networking opportunities.</p>
+                        <p>The symposium will include sessions on artificial intelligence, machine learning, cloud computing, cybersecurity, and other emerging technologies. Industry experts will share insights on current trends and future developments.</p>
+                        <p>Students will have the opportunity to showcase their projects and network with potential employers. Registration is free for AIMSR students.</p>
+                        <a asp-controller="Home" asp-action="Contact" class="btn btn-primary">Register Now</a>
+                    }
+                    else if (ViewBag.NewsId == 2)
+                    {
+                        <h2>AIMSR Ranks #1 in Engineering Education</h2>
+                        <p class="text-muted">February 28, 2025</p>
+                        <img src="~/rank1.webp" class="img-fluid rounded mb-4" alt="Award Ceremony">
+                        <p>We're proud to announce that AIMSR has been ranked #1 in engineering education by the National Education Survey for the third consecutive year.</p>
+                        <p>This achievement reflects our commitment to academic excellence, industry-relevant curriculum, state-of-the-art facilities, and dedicated faculty members.</p>
+                        <p>The ranking evaluates institutions based on teaching quality, research output, industry connections, placement records, and student satisfaction.</p>
+                        <a asp-controller="Home" asp-action="About" class="btn btn-primary">Learn More About AIMSR</a>
+                    }
+                    else
+                    {
+                        <h2>News Article</h2>
+                        <p>Details not found for this news article.</p>
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back to Home</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
