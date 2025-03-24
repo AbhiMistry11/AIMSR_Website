@@ -1,9 +1,13 @@
 wwwroot\40ullhfw.l1a.webp
 wwwroot\5dc4f16d13a52_1.jpg
 wwwroot\abhi.webp
+wwwroot\aeecc22a67dac7987a80ac0724658493.jpg
 wwwroot\aimsr-logo.png.bv_resized_desktop.png.bv.webp
+wwwroot\amazon.png
 wwwroot\college-students-arriving-for-night-school.webp
 wwwroot\css\site.css
+wwwroot\Deloitte.jpg
+wwwroot\download.jpg
 wwwroot\favicon.ico
 wwwroot\google.webp
 wwwroot\graduating-class.webp
@@ -12,6 +16,7 @@ wwwroot\his.webp
 wwwroot\js\site.js
 wwwroot\kaustubh.webp
 wwwroot\keval.webp
+wwwroot\krsna.png
 wwwroot\lab.webp
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -72,6 +77,7 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\libarary.webp
 wwwroot\micro.webp
+wwwroot\microsoft.png
 wwwroot\NB.webp
 wwwroot\pg.webp
 wwwroot\rank1.webp

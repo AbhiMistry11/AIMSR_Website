@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\5dc4f16d13a52_1.jpg"
     },
     {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\Deloitte.jpg",
+      "PackagePath": "staticwebassets\\Deloitte.jpg"
+    },
+    {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\NB.webp",
       "PackagePath": "staticwebassets\\NB.webp"
     },
@@ -29,8 +33,16 @@
       "PackagePath": "staticwebassets\\abhi.webp"
     },
     {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aeecc22a67dac7987a80ac0724658493.jpg",
+      "PackagePath": "staticwebassets\\aeecc22a67dac7987a80ac0724658493.jpg"
+    },
+    {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aimsr-logo.png.bv_resized_desktop.png.bv.webp",
       "PackagePath": "staticwebassets\\aimsr-logo.png.bv_resized_desktop.png.bv.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\amazon.png",
+      "PackagePath": "staticwebassets\\amazon.png"
     },
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\college-students-arriving-for-night-school.webp",
@@ -39,6 +51,10 @@
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\download.jpg",
+      "PackagePath": "staticwebassets\\download.jpg"
     },
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\favicon.ico",
@@ -71,6 +87,10 @@
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\keval.webp",
       "PackagePath": "staticwebassets\\keval.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\krsna.png",
+      "PackagePath": "staticwebassets\\krsna.png"
     },
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lab.webp",
@@ -311,6 +331,10 @@
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\micro.webp",
       "PackagePath": "staticwebassets\\micro.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\microsoft.png",
+      "PackagePath": "staticwebassets\\microsoft.png"
     },
     {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\pg.webp",

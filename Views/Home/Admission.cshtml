@@ -1,72 +1,89 @@
 ﻿@{
     ViewData["Title"] = "Admissions - AIMSR College";
 }
+
+<!-- Make sure Font Awesome and Google Fonts are included in _Layout.cshtml or here -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+
 <div class="container mt-5 mb-5">
-    <!-- Banner/Header -->
+    <!-- Banner/Header with enhanced design -->
     <div class="admission-banner mb-5">
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1 class="display-4">Admissions</h1>
                 <p class="lead">Join AIMSR College and build your future with excellence</p>
+                <a href="#apply-now" class="btn btn-light mt-3">Apply Now</a>
             </div>
         </div>
     </div>
 
-    <!-- Admission Process Section -->
+    <!-- Admission Process Section - Improved card layout -->
     <div class="row mb-5">
         <div class="col-md-12">
             <h2>Admission Process</h2>
-            <hr>
             <div class="card-deck">
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Step 1: Application</h5>
+                        <h5 class="card-title"><span class="step-number">01</span> Application</h5>
                         <p class="card-text">Complete and submit the online application form with required documents.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Start Application</a>
                     </div>
                 </div>
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Step 2: Entrance Test</h5>
+                        <h5 class="card-title"><span class="step-number">02</span> Entrance Test</h5>
                         <p class="card-text">Qualify the entrance examination conducted by the college.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Test Schedule</a>
                     </div>
                 </div>
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Step 3: Interview</h5>
+                        <h5 class="card-title"><span class="step-number">03</span> Interview</h5>
                         <p class="card-text">Shortlisted candidates will be called for personal interview.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Interview Tips</a>
                     </div>
                 </div>
                 <div class="card shadow-sm">
                     <div class="card-body">
-                        <h5 class="card-title">Step 4: Admission</h5>
+                        <h5 class="card-title"><span class="step-number">04</span> Admission</h5>
                         <p class="card-text">Selected candidates will receive admission letter with fee details.</p>
+                        <a href="#" class="btn btn-sm btn-outline-primary mt-2">Fee Payment</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Programs/Courses Section -->
+    <!-- Programs/Courses Section - Better accordion -->
     <div class="row mb-5">
         <div class="col-md-12">
             <h2>Programs Offered</h2>
-            <hr>
             <div class="accordion" id="programsAccordion">
                 <div class="card">
                     <div class="card-header" id="undergraduateHeading">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
                                     data-target="#undergraduateCollapse" aria-expanded="true" aria-controls="undergraduateCollapse">
-                                Undergraduate Programs
+                                <i class="fas fa-graduation-cap mr-2"></i> Undergraduate Programs
                             </button>
                         </h2>
                     </div>
                     <div id="undergraduateCollapse" class="collapse show" aria-labelledby="undergraduateHeading" data-parent="#programsAccordion">
                         <div class="card-body">
                             <ul class="list-group">
-                                <li class="list-group-item">Bachelor of Business Administration (BBA)</li>
-                                <li class="list-group-item">Bachelor of Computer Applications (BCA)</li>
-                                <li class="list-group-item">Bachelor of Science in Information Technology (B.Sc IT)</li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Bachelor of Business Administration (BBA)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Bachelor of Computer Applications (BCA)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Bachelor of Science in Information Technology (B.Sc IT)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -76,16 +93,25 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                                     data-target="#postgraduateCollapse" aria-expanded="false" aria-controls="postgraduateCollapse">
-                                Postgraduate Programs
+                                <i class="fas fa-user-graduate mr-2"></i> Postgraduate Programs
                             </button>
                         </h2>
                     </div>
                     <div id="postgraduateCollapse" class="collapse" aria-labelledby="postgraduateHeading" data-parent="#programsAccordion">
                         <div class="card-body">
                             <ul class="list-group">
-                                <li class="list-group-item">Master of Business Administration (MBA)</li>
-                                <li class="list-group-item">Master of Computer Applications (MCA)</li>
-                                <li class="list-group-item">Master of Science in Data Science (M.Sc Data Science)</li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Master of Business Administration (MBA)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Master of Computer Applications (MCA)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Master of Science in Data Science (M.Sc Data Science)
+                                    <a href="#" class="btn btn-sm btn-outline-secondary">Details</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -94,11 +120,10 @@
         </div>
     </div>
 
-    <!-- Fee Structure -->
+    <!-- Fee Structure - Enhanced table -->
     <div class="row mb-5">
         <div class="col-md-12">
             <h2>Fee Structure</h2>
-            <hr>
             <div class="table-responsive">
                 <table class="table table-striped">
                     <thead class="thead-dark">
@@ -112,91 +137,101 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>BBA</td>
+                            <td><strong>BBA</strong></td>
                             <td>3 years</td>
                             <td>₹75,000</td>
                             <td>₹15,000</td>
-                            <td>₹90,000</td>
+                            <td><strong>₹90,000</strong></td>
                         </tr>
                         <tr>
-                            <td>BCA</td>
+                            <td><strong>BCA</strong></td>
                             <td>3 years</td>
                             <td>₹80,000</td>
                             <td>₹15,000</td>
-                            <td>₹95,000</td>
+                            <td><strong>₹95,000</strong></td>
                         </tr>
                         <tr>
-                            <td>B.Sc IT</td>
+                            <td><strong>B.Sc IT</strong></td>
                             <td>3 years</td>
                             <td>₹70,000</td>
                             <td>₹15,000</td>
-                            <td>₹85,000</td>
+                            <td><strong>₹85,000</strong></td>
                         </tr>
                         <tr>
-                            <td>MBA</td>
+                            <td><strong>MBA</strong></td>
                             <td>2 years</td>
                             <td>₹1,25,000</td>
                             <td>₹25,000</td>
-                            <td>₹1,50,000</td>
+                            <td><strong>₹1,50,000</strong></td>
                         </tr>
                         <tr>
-                            <td>MCA</td>
+                            <td><strong>MCA</strong></td>
                             <td>2 years</td>
                             <td>₹1,20,000</td>
                             <td>₹25,000</td>
-                            <td>₹1,45,000</td>
+                            <td><strong>₹1,45,000</strong></td>
                         </tr>
                         <tr>
-                            <td>M.Sc Data Science</td>
+                            <td><strong>M.Sc Data Science</strong></td>
                             <td>2 years</td>
                             <td>₹1,30,000</td>
                             <td>₹25,000</td>
-                            <td>₹1,55,000</td>
+                            <td><strong>₹1,55,000</strong></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <div class="alert alert-info mt-3">
-                <strong>Note:</strong> Scholarships available for meritorious students. Contact the admission office for more details.
+                <i class="fas fa-info-circle mr-2"></i> <strong>Note:</strong> Scholarships available for meritorious students. Contact the admission office for more details.
             </div>
         </div>
     </div>
 
-    <!-- Documents Required -->
+    <!-- Documents Required - Better layout -->
     <div class="row mb-5">
         <div class="col-md-12">
             <h2>Required Documents</h2>
-            <hr>
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <ul>
-                        <li>Completed application form</li>
-                        <li>High school mark sheet and certificate</li>
-                        <li>Higher secondary mark sheet and certificate</li>
-                        <li>Graduation mark sheets and degree (for postgraduate programs)</li>
-                        <li>Character certificate from previous institution</li>
-                        <li>Transfer certificate</li>
-                        <li>Four passport-sized photographs</li>
-                        <li>ID proof (Aadhaar Card/PAN Card/Passport)</li>
-                        <li>Caste certificate (if applicable)</li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="document-list">
+                                <li>Completed application form</li>
+                                <li>High school mark sheet and certificate</li>
+                                <li>Higher secondary mark sheet and certificate</li>
+                                <li>Graduation mark sheets and degree (for postgraduate programs)</li>
+                                <li>Character certificate from previous institution</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="document-list">
+                                <li>Transfer certificate</li>
+                                <li>Four passport-sized photographs</li>
+                                <li>ID proof (Aadhaar Card/PAN Card/Passport)</li>
+                                <li>Caste certificate (if applicable)</li>
+                                <li>Income certificate (for scholarship applicants)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn btn-outline-primary">Download Document Checklist</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- FAQ Section -->
+    <!-- FAQ Section - Enhanced accordion -->
     <div class="row mb-5">
         <div class="col-md-12">
             <h2>Frequently Asked Questions</h2>
-            <hr>
             <div class="accordion" id="faqAccordion">
                 <div class="card">
                     <div class="card-header" id="faq1">
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
                                     data-target="#faqAnswer1" aria-expanded="true" aria-controls="faqAnswer1">
-                                What is the last date to apply for admission?
+                                <i class="fas fa-question-circle mr-2"></i> What is the last date to apply for admission?
                             </button>
                         </h2>
                     </div>
@@ -211,7 +246,7 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                                     data-target="#faqAnswer2" aria-expanded="false" aria-controls="faqAnswer2">
-                                Is there a hostel facility available?
+                                <i class="fas fa-question-circle mr-2"></i> Is there a hostel facility available?
                             </button>
                         </h2>
                     </div>
@@ -226,7 +261,7 @@
                         <h2 class="mb-0">
                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
                                     data-target="#faqAnswer3" aria-expanded="false" aria-controls="faqAnswer3">
-                                Are there any scholarship opportunities?
+                                <i class="fas fa-question-circle mr-2"></i> Are there any scholarship opportunities?
                             </button>
                         </h2>
                     </div>
@@ -236,22 +271,139 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Admission Office -->
-    <div class="row">
-        <div class="col-md-12">
-            <div class="card bg-light">
-                <div class="card-body">
-                    <h4>Need Help? Contact Our Admission Office</h4>
-                    <p><i class="fas fa-phone"></i> Phone: +91-1234567890</p>
-                    <p><i class="fas fa-envelope"></i> Email: admissions@aimsrcollege.edu.in</p>
-                    <p><i class="fas fa-clock"></i> Working Hours: Monday to Friday (9:00 AM to 5:00 PM)</p>
-                    <a href="#" class="btn btn-primary">Schedule a Campus Visit</a>
+                <div class="card">
+                    <div class="card-header" id="faq4">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                    data-target="#faqAnswer4" aria-expanded="false" aria-controls="faqAnswer4">
+                                <i class="fas fa-question-circle mr-2"></i> What is the selection process for admission?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="faqAnswer4" class="collapse" aria-labelledby="faq4" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            The selection process includes review of academic records, entrance test performance, and personal interview. For certain programs, work experience and extracurricular achievements are also considered.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Contact Admission Office - Enhanced layout -->
+    <div class="row" id="contact">
+        <div class="col-md-12">
+            <h2>Contact Our Admission Office</h2>
+            <div class="card bg-light">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h4><i class="fas fa-headset mr-2"></i> Need Help With Admissions?</h4>
+                            <p><i class="fas fa-phone-alt"></i> Phone: +91-1234567890</p>
+                            <p><i class="fas fa-envelope"></i> Email: admissions@aimsrcollege.edu.in</p>
+                            <p><i class="fas fa-clock"></i> Working Hours: Monday to Friday (9:00 AM to 5:00 PM)</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Address: AIMSR College Campus, Education City, Sample Road, Sample City - 123456</p>
+                        </div>
+                        <div class="col-md-5 text-center d-flex align-items-center justify-content-center">
+                            <div>
+                                <a href="#" class="btn btn-primary mb-3"><i class="fas fa-calendar-check mr-2"></i> Schedule a Campus Visit</a>
+                                <div class="mt-3">
+                                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call-to-Action Section - New section -->
+    <div class="row mt-5" id="apply-now">
+        <div class="col-md-12">
+            <div class="cta-section text-center p-5">
+                <h3>Ready to Begin Your Journey?</h3>
+                <p class="lead">Applications for the 2025-2026 academic year are now open</p>
+                <a href="#" class="btn btn-lg btn-primary mt-3"><i class="fas fa-paper-plane mr-2"></i> Apply Now</a>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- Required JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+<!-- Additional CSS needed for this enhanced layout -->
+<style>
+    .step-number {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: var(--secondary-color, #6c757d);
+        color: white;
+        border-radius: 50%;
+        margin-right: 8px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .document-list li {
+        margin-bottom: 10px;
+    }
+
+    .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--primary-color, #007bff);
+        color: white;
+        margin: 0 5px;
+        transition: var(--transition, all 0.3s ease);
+    }
+
+        .social-icon:hover {
+            background-color: var(--secondary-color, #6c757d);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+    .cta-section {
+        background: linear-gradient(135deg, var(--secondary-color, #6c757d), var(--primary-color, #007bff));
+        border-radius: var(--border-radius, 0.25rem);
+        color: white;
+        margin-top: 3rem;
+    }
+
+        .cta-section .btn-primary {
+            background-color: white;
+            color: var(--primary-color, #007bff);
+            border: none;
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+        }
+
+            .cta-section .btn-primary:hover {
+                background-color: rgba(255, 255, 255, 0.9);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
+            }
+
+    /* Make sure postgraduate programs are displayed properly when expanded */
+    #postgraduateCollapse .list-group-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+   
+</style>

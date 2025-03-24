@@ -29,10 +29,10 @@
 /* Navigation */
 /* Bold & Innovative Header Design */
 .navbar {
-/*    background: linear-gradient(135deg, #004aad 0%, #0056b3 50%, #0062cc 100%) !important;*/
-/*    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);*/
+    /*    background: linear-gradient(135deg, #004aad 0%, #0056b3 50%, #0062cc 100%) !important;*/
+    /*    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);*/
     padding: 0.75rem 1rem;
-/*    border-bottom: 3px solid #00c8ff;*/
+    /*    border-bottom: 3px solid #00c8ff;*/
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -291,49 +291,49 @@ footer {
     z-index: 1;
 }
 
-/* Admission Page Styles */
-/* Main styles for Admissions Page */
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background-color: #f8f9fa;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Banner styling */
+/* Banner Styling */
 .admission-banner {
-    background: linear-gradient(135deg, #1a237e, #0d47a1);
-    color: white;
-    padding: 60px 0;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    margin-bottom: 40px !important;
+    background: #0d6efd;
+    padding: 4rem 0;
+    border-radius: var(--border-radius);
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
 }
+
+    .admission-banner::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: url('/assets/images/pattern.svg');
+        opacity: 0.1;
+    }
 
     .admission-banner h1 {
+        color: white;
         font-weight: 700;
-        margin-bottom: 20px;
-        text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        margin-bottom: 1rem;
+        position: relative;
+        z-index: 1;
     }
 
     .admission-banner .lead {
-        font-size: 1.4rem;
-        font-weight: 300;
+        color: rgba(255, 255, 255, 0.9);
+        font-size: 1.25rem;
+        position: relative;
+        z-index: 1;
     }
 
-/* Section styling */
+/* Section Headings */
 h2 {
-    color: #1a237e;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    color: var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     position: relative;
-    padding-bottom: 10px;
+    font-weight: 600;
 }
 
     h2::after {
@@ -343,184 +343,261 @@ h2 {
         left: 0;
         width: 60px;
         height: 3px;
-        background-color: #0d47a1;
+        background-color: var(--secondary-color);
     }
 
 hr {
-    border-top: 1px solid #e0e0e0;
-    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 1.5rem 0 2rem;
 }
 
-/* Card styling */
+/* Cards Styling */
 .card {
     border: none;
-    border-radius: 8px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    margin-bottom: 1.5rem;
 }
 
     .card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     }
 
-.card-deck {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin-bottom: 30px;
+.card-header {
+    background-color: var(--light-color);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 1rem 1.5rem;
+}
+
+.card-body {
+    padding: 1.5rem;
 }
 
 .card-title {
-    color: #0d47a1;
+    color: var(--primary-color);
     font-weight: 600;
+    margin-bottom: 1rem;
 }
 
-.shadow-sm {
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+.card-text {
+    color: #666;
 }
 
-/* Admission process cards */
-.admission-process .card {
-    border-top: 4px solid #0d47a1;
+/* Admission Process Cards */
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-/* Accordion styling */
+    .card-deck .card {
+        margin: 0;
+    }
+
+    .card-deck .card-title {
+        border-bottom: 2px solid var(--secondary-color);
+        padding-bottom: 0.5rem;
+        display: inline-block;
+    }
+
+/* Accordion Styling */
+.accordion .card {
+    margin-bottom: 0.5rem;
+    border-radius: var(--border-radius) !important;
+    overflow: hidden;
+}
+
 .accordion .card-header {
-    background-color: white;
     padding: 0;
-    border-bottom: none;
+    background-color: white;
 }
 
 .accordion .btn-link {
-    color: #0d47a1;
+    color: var(--primary-color);
     font-weight: 600;
     text-decoration: none;
-    padding: 15px;
+    padding: 1.25rem 1.5rem;
+    position: relative;
     width: 100%;
     text-align: left;
+    transition: var(--transition);
 }
 
-    .accordion .btn-link:hover,
-    .accordion .btn-link:focus {
-        text-decoration: none;
-        color: #1a237e;
-        background-color: #f5f7fa;
+    .accordion .btn-link:hover {
+        color: var(--secondary-color);
     }
 
-.accordion .card {
-    border: 1px solid #e0e0e0;
-    margin-bottom: 10px;
-}
-
-/* Program list styling */
-.list-group-item {
-    border-left: none;
-    border-right: none;
-    transition: background-color 0.3s;
-}
-
-    .list-group-item:hover {
-        background-color: #f5f7fa;
+    .accordion .btn-link::after {
+        content: '\f078';
+        font-family: 'Font Awesome 5 Free';
+        position: absolute;
+        right: 1.5rem;
+        transition: var(--transition);
     }
 
-/* Table styling */
+    .accordion .btn-link.collapsed::after {
+        transform: rotate(-90deg);
+    }
+
+/* Table Styling */
 .table-responsive {
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: var(--box-shadow);
 }
 
 .table {
     margin-bottom: 0;
 }
 
-.thead-dark th {
-    background-color: #0d47a1 !important;
-    border-color: #0d47a1 !important;
-}
-
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(13, 71, 161, 0.05);
-}
-
-/* Alert styling */
-.alert-info {
-    background-color: #e3f2fd;
-    border-color: #bbdefb;
-    color: #0d47a1;
-}
-
-/* Required documents styling */
-.card ul {
-    padding-left: 20px;
-}
-
-    .card ul li {
-        padding: 5px 0;
+    .table thead th {
+        background-color: var(--primary-color);
+        color: white;
+        font-weight: 500;
+        border: none;
+        padding: 1rem;
     }
 
-/* Contact card styling */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* List Styling */
+.list-group-item {
+    border: none;
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border-left: 3px solid transparent;
+    transition: var(--transition);
+}
+
+    .list-group-item:hover {
+        border-left-color: var(--secondary-color);
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+
+ul:not(.list-group) {
+    padding-left: 1.5rem;
+}
+
+    ul:not(.list-group) li {
+        margin-bottom: 0.5rem;
+        position: relative;
+    }
+
+        ul:not(.list-group) li::before {
+            content: '\f054';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            color: var(--secondary-color);
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
+        }
+
+/* Alert Styling */
+.alert {
+    border-radius: var(--border-radius);
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+.alert-info {
+    background-color: rgba(52, 152, 219, 0.1);
+    color: var(--secondary-color);
+}
+
+/* Contact Card */
 .card.bg-light {
-    background: linear-gradient(135deg, #e3f2fd, #bbdefb) !important;
-    padding: 20px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    padding: 1rem;
 }
 
     .card.bg-light h4 {
-        color: #0d47a1;
-        margin-bottom: 20px;
+        color: var(--primary-color);
+        margin-bottom: 1.5rem;
+        font-weight: 600;
     }
 
     .card.bg-light p {
-        margin-bottom: 10px;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
     }
 
-    .card.bg-light .fas {
-        color: #0d47a1;
-        margin-right: 10px;
+    .card.bg-light i {
+        color: var(--secondary-color);
+        margin-right: 0.75rem;
         width: 20px;
+        text-align: center;
     }
 
 .btn-primary {
-    background-color: #0d47a1;
-    border-color: #0d47a1;
-    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
     font-weight: 500;
-    letter-spacing: 0.5px;
-    transition: all 0.3s;
+    transition: var(--transition);
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
 }
 
     .btn-primary:hover {
-        background-color: #1a237e;
-        border-color: #1a237e;
+        background-color: #2980b9;
+        border-color: #2980b9;
         transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        box-shadow: 0 6px 15px rgba(52, 152, 219, 0.4);
     }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .admission-banner {
-        padding: 40px 0;
-    }
-
-        .admission-banner h1 {
-            font-size: 2.5rem;
-        }
-
-    .card-deck {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-    }
-
-    h2 {
-        font-size: 1.8rem;
-    }
-
-    .table-responsive {
-        font-size: 0.9rem;
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 1.5rem;
     }
 }
 
-/* Animation for cards */
+@media (max-width: 768px) {
+    .admission-banner {
+        padding: 3rem 0;
+    }
+
+    .card-deck {
+        grid-template-columns: 1fr;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .table td, .table th {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .admission-banner {
+        padding: 2rem 0;
+    }
+
+        .admission-banner h1 {
+            font-size: 2rem;
+        }
+
+    .card-body {
+        padding: 1.25rem;
+    }
+}
+
+/* Animation Effects */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -533,49 +610,14 @@ hr {
     }
 }
 
-.card {
-    animation: fadeIn 0.5s ease-out forwards;
+.card, .admission-banner, h2, .table-responsive, .accordion {
+    animation: fadeIn 0.8s ease forwards;
 }
 
-.card-deck .card:nth-child(1) {
-    animation-delay: 0.1s;
-}
-
-.card-deck .card:nth-child(2) {
-    animation-delay: 0.2s;
-}
-
-.card-deck .card:nth-child(3) {
-    animation-delay: 0.3s;
-}
-
-.card-deck .card:nth-child(4) {
-    animation-delay: 0.4s;
-}
-
-/* Print media styles */
-@media print {
-    .admission-banner {
-        background: none !important;
-        color: #000 !important;
-        padding: 20px 0 !important;
-        box-shadow: none !important;
-    }
-
-    .card, .accordion, .table-responsive {
-        box-shadow: none !important;
-    }
-
-    .btn, .collapse:not(.show) {
-        display: none !important;
-    }
-
-    .collapse {
-        display: block !important;
-        height: auto !important;
-    }
-}
-
+/* Ensure Font Awesome is included */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+/* Include Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 /* Placement Page Styles */
 .company-logo {
     height: 80px;
@@ -949,6 +991,3 @@ hr {
         padding: 15px;
     }
 }
-
-
-

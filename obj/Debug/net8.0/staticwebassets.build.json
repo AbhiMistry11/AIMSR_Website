@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NzQEd213UEHOuMu90ECINmjaDIvom7KWXD+rAC8QyuA=",
+  "Hash": "ocClTkokzFZvKxCzHdDujdT80zVF5VRtK+qsDtFyRyA=",
   "Source": "AIMSRCollegeWebsite",
   "BasePath": "_content/AIMSRCollegeWebsite",
   "Mode": "Default",
@@ -122,6 +122,27 @@
       "OriginalItemSpec": "wwwroot\\abhi.webp"
     },
     {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aeecc22a67dac7987a80ac0724658493.jpg",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "aeecc22a67dac7987a80ac0724658493#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k38dqy6pa9",
+      "Integrity": "wNNlJvPLwPjI5PYllrgaeKQIRzpGHsMP1tZOko04H7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\aeecc22a67dac7987a80ac0724658493.jpg"
+    },
+    {
       "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aimsr-logo.png.bv_resized_desktop.png.bv.webp",
       "SourceId": "AIMSRCollegeWebsite",
       "SourceType": "Discovered",
@@ -141,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\aimsr-logo.png.bv_resized_desktop.png.bv.webp"
+    },
+    {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\amazon.png",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "amazon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cjg1dbnuta",
+      "Integrity": "CM2hYf1Q6OuVMFUXRzQRxoC2QxjUzYTK2FQAROjqJjg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\amazon.png"
     },
     {
       "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\college-students-arriving-for-night-school.webp",
@@ -178,11 +220,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "skq27lzzvh",
-      "Integrity": "DL7pomIfVlZ7Z7bHZUgwB3PsmFQSpa2FEPedhThj78Y=",
+      "Fingerprint": "365dzkyy3u",
+      "Integrity": "lTGRMm9T/ae5MI6udOOqWKpccU7OZKYvYQHFbldukjo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\Deloitte.jpg",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "Deloitte#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nghi9xi5m1",
+      "Integrity": "GapMpC7sncya0tzZNVgv7ixkGduBJOX2myCXmM60Otc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Deloitte.jpg"
+    },
+    {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\download.jpg",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "download#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6yn7vd8esa",
+      "Integrity": "/kd+1YRl48RpPF3yWvmqSi9ScfUaRVY6W0iNgs/qijQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\download.jpg"
     },
     {
       "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\favicon.ico",
@@ -351,6 +435,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\keval.webp"
+    },
+    {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\krsna.png",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "krsna#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j1r9h6m6nm",
+      "Integrity": "J1qabnqWNgMduS/D+PJ6gPMRmJNnIWvoh137XlHwvfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\krsna.png"
     },
     {
       "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\lab.webp",
@@ -1613,6 +1718,27 @@
       "OriginalItemSpec": "wwwroot\\micro.webp"
     },
     {
+      "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\microsoft.png",
+      "SourceId": "AIMSRCollegeWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\",
+      "BasePath": "_content/AIMSRCollegeWebsite",
+      "RelativePath": "microsoft#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dvy3nejai6",
+      "Integrity": "SfI707HLE1wglFiM8Pu2rQLQfAV1FkDgelkVYHboeog=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\microsoft.png"
+    },
+    {
       "Identity": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\NB.webp",
       "SourceId": "AIMSRCollegeWebsite",
       "SourceType": "Discovered",
@@ -2113,6 +2239,88 @@
       ]
     },
     {
+      "Route": "aeecc22a67dac7987a80ac0724658493.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aeecc22a67dac7987a80ac0724658493.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNNlJvPLwPjI5PYllrgaeKQIRzpGHsMP1tZOko04H7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wNNlJvPLwPjI5PYllrgaeKQIRzpGHsMP1tZOko04H7U="
+        }
+      ]
+    },
+    {
+      "Route": "aeecc22a67dac7987a80ac0724658493.k38dqy6pa9.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\aeecc22a67dac7987a80ac0724658493.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34828"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wNNlJvPLwPjI5PYllrgaeKQIRzpGHsMP1tZOko04H7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:36:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k38dqy6pa9"
+        },
+        {
+          "Name": "label",
+          "Value": "aeecc22a67dac7987a80ac0724658493.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wNNlJvPLwPjI5PYllrgaeKQIRzpGHsMP1tZOko04H7U="
+        }
+      ]
+    },
+    {
       "Route": "AIMSRCollegeWebsite.bundle.scp.css",
       "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AIMSRCollegeWebsite.bundle.scp.css",
       "Selectors": [],
@@ -2359,6 +2567,88 @@
       ]
     },
     {
+      "Route": "amazon.cjg1dbnuta.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\amazon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CM2hYf1Q6OuVMFUXRzQRxoC2QxjUzYTK2FQAROjqJjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:04:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cjg1dbnuta"
+        },
+        {
+          "Name": "label",
+          "Value": "amazon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CM2hYf1Q6OuVMFUXRzQRxoC2QxjUzYTK2FQAROjqJjg="
+        }
+      ]
+    },
+    {
+      "Route": "amazon.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\amazon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186024"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CM2hYf1Q6OuVMFUXRzQRxoC2QxjUzYTK2FQAROjqJjg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:04:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CM2hYf1Q6OuVMFUXRzQRxoC2QxjUzYTK2FQAROjqJjg="
+        }
+      ]
+    },
+    {
       "Route": "college-students-arriving-for-night-school.piviqixgyr.webp",
       "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\college-students-arriving-for-night-school.webp",
       "Selectors": [],
@@ -2441,6 +2731,51 @@
       ]
     },
     {
+      "Route": "css/site.365dzkyy3u.css",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lTGRMm9T/ae5MI6udOOqWKpccU7OZKYvYQHFbldukjo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 17:27:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "365dzkyy3u"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lTGRMm9T/ae5MI6udOOqWKpccU7OZKYvYQHFbldukjo="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -2451,7 +2786,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19378"
+          "Value": "20879"
         },
         {
           "Name": "Content-Type",
@@ -2459,11 +2794,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DL7pomIfVlZ7Z7bHZUgwB3PsmFQSpa2FEPedhThj78Y=\""
+          "Value": "\"lTGRMm9T/ae5MI6udOOqWKpccU7OZKYvYQHFbldukjo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 03:29:33 GMT"
+          "Value": "Mon, 24 Mar 2025 17:27:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2473,13 +2808,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DL7pomIfVlZ7Z7bHZUgwB3PsmFQSpa2FEPedhThj78Y="
+          "Value": "sha256-lTGRMm9T/ae5MI6udOOqWKpccU7OZKYvYQHFbldukjo="
         }
       ]
     },
     {
-      "Route": "css/site.skq27lzzvh.css",
-      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\css\\site.css",
+      "Route": "Deloitte.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\Deloitte.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2488,19 +2823,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19378"
+          "Value": "11246"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"DL7pomIfVlZ7Z7bHZUgwB3PsmFQSpa2FEPedhThj78Y=\""
+          "Value": "\"GapMpC7sncya0tzZNVgv7ixkGduBJOX2myCXmM60Otc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 03:29:33 GMT"
+          "Value": "Mon, 24 Mar 2025 10:00:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GapMpC7sncya0tzZNVgv7ixkGduBJOX2myCXmM60Otc="
+        }
+      ]
+    },
+    {
+      "Route": "Deloitte.nghi9xi5m1.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\Deloitte.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GapMpC7sncya0tzZNVgv7ixkGduBJOX2myCXmM60Otc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:00:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2510,15 +2882,97 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "skq27lzzvh"
+          "Value": "nghi9xi5m1"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "Deloitte.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DL7pomIfVlZ7Z7bHZUgwB3PsmFQSpa2FEPedhThj78Y="
+          "Value": "sha256-GapMpC7sncya0tzZNVgv7ixkGduBJOX2myCXmM60Otc="
+        }
+      ]
+    },
+    {
+      "Route": "download.6yn7vd8esa.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kd+1YRl48RpPF3yWvmqSi9ScfUaRVY6W0iNgs/qijQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:32:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6yn7vd8esa"
+        },
+        {
+          "Name": "label",
+          "Value": "download.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/kd+1YRl48RpPF3yWvmqSi9ScfUaRVY6W0iNgs/qijQ="
+        }
+      ]
+    },
+    {
+      "Route": "download.jpg",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\download.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/kd+1YRl48RpPF3yWvmqSi9ScfUaRVY6W0iNgs/qijQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:32:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/kd+1YRl48RpPF3yWvmqSi9ScfUaRVY6W0iNgs/qijQ="
         }
       ]
     },
@@ -3175,6 +3629,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CTNI3KcQnWG1CbF9BePS28H4PhD9GCqcu+N4wD21S0o="
+        }
+      ]
+    },
+    {
+      "Route": "krsna.j1r9h6m6nm.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\krsna.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1qabnqWNgMduS/D+PJ6gPMRmJNnIWvoh137XlHwvfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1r9h6m6nm"
+        },
+        {
+          "Name": "label",
+          "Value": "krsna.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1qabnqWNgMduS/D+PJ6gPMRmJNnIWvoh137XlHwvfg="
+        }
+      ]
+    },
+    {
+      "Route": "krsna.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\krsna.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40667"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1qabnqWNgMduS/D+PJ6gPMRmJNnIWvoh137XlHwvfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 09:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1qabnqWNgMduS/D+PJ6gPMRmJNnIWvoh137XlHwvfg="
         }
       ]
     },
@@ -8095,6 +8631,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vmKGygSyQzEid9B5/+e7UYX6p04uFJz2j5s2JWimVqA="
+        }
+      ]
+    },
+    {
+      "Route": "microsoft.dvy3nejai6.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\microsoft.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SfI707HLE1wglFiM8Pu2rQLQfAV1FkDgelkVYHboeog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dvy3nejai6"
+        },
+        {
+          "Name": "label",
+          "Value": "microsoft.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SfI707HLE1wglFiM8Pu2rQLQfAV1FkDgelkVYHboeog="
+        }
+      ]
+    },
+    {
+      "Route": "microsoft.png",
+      "AssetFile": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\microsoft.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50007"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SfI707HLE1wglFiM8Pu2rQLQfAV1FkDgelkVYHboeog=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Mar 2025 10:05:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SfI707HLE1wglFiM8Pu2rQLQfAV1FkDgelkVYHboeog="
         }
       ]
     },
