@@ -1,0 +1,80 @@
+﻿@model CourseDetailsViewModel
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h2 class="mb-0">@Model.CourseName</h2>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="@Model.CourseImage" alt="@Model.CourseName" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-8">
+                            <h4>Course Overview</h4>
+                            <p>@Model.CourseDescription</p>
+
+                            <div class="course-details mt-4">
+                                <h5>Key Details</h5>
+                                <ul class="list-unstyled">
+                                    <li><strong>Duration:</strong> @Model.CourseDuration</li>
+                                    <li><strong>Total Fees:</strong> ₹@Model.TotalFees</li>
+                                    <li><strong>Degree Awarded:</strong> @Model.DegreeType</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-curriculum mt-4">
+                        <h4>Curriculum Highlights</h4>
+                        <div class="accordion" id="curriculumAccordion">
+                            @foreach (var semester in Model.Curriculum)
+                            {
+                                <div class="card">
+                                    <div class="card-header" id="semester-@semester.SemesterNumber">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link" type="button" data-toggle="collapse"
+                                                    data-target="#semester-content-@semester.SemesterNumber"
+                                                    aria-expanded="false">
+                                                Semester @semester.SemesterNumber
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="semester-content-@semester.SemesterNumber" class="collapse"
+                                         aria-labelledby="semester-@semester.SemesterNumber" data-parent="#curriculumAccordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                @foreach (var subject in semester.Subjects)
+                                                {
+                                                    <li>@subject</li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="career-prospects mt-4">
+                        <h4>Career Prospects</h4>
+                        <ul>
+                            @foreach (var prospect in Model.CareerProspects)
+                            {
+                                <li>@prospect</li>
+                            }
+                        </ul>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <a asp-action="ApplyNow" asp-route-course="@Model.CourseCode" class="btn btn-primary">
+                            Apply for @Model.CourseName
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

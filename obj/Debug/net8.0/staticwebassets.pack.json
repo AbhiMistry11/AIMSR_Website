@@ -77,6 +77,14 @@
       "PackagePath": "staticwebassets\\his.webp"
     },
     {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\images\\bba.webp",
+      "PackagePath": "staticwebassets\\images\\bba.webp"
+    },
+    {
+      "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\images\\bca.webp",
+      "PackagePath": "staticwebassets\\images\\bca.webp"
+    },
+    {
       "Id": "C:\\AWT\\AIMSRCollegeWebsite\\AIMSRCollegeWebsite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

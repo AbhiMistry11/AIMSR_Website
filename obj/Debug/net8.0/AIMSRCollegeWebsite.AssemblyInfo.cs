@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AIMSRCollegeWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+917e94893804800ec1f62d00e3d99959cfb9e3d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80d645640c1fbca475462e66825bdda36c7434a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AIMSRCollegeWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AIMSRCollegeWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

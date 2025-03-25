@@ -13,6 +13,8 @@ wwwroot\google.webp
 wwwroot\graduating-class.webp
 wwwroot\high-angle-adults-studying-together_23-2150331646.webp
 wwwroot\his.webp
+wwwroot\images\bba.webp
+wwwroot\images\bca.webp
 wwwroot\js\site.js
 wwwroot\kaustubh.webp
 wwwroot\keval.webp
